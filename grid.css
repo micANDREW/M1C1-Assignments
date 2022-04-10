@@ -1,0 +1,94 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridOne p:nth-child(2) {
+    color: blue;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.red p {
+    background-color: red;
+}
+
+.blue p {
+    background-color: blue;
+}
+
+.yellow p {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 225px;
+    margin-bottom: 60px;
+}
+.text {
+    background-color: thistle;
+}
+.image {
+    background-color: tomato;
+}
+
+.image img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+.gridFour > #child2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: honeydew; 
+    width: 600px;
+}
+
+.gridFive > #child2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.gridFive > #child2 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridFive > #child2 > img:nth-child(2) {
+    width: 250px;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.gridSix > p {
+    font-family: 'Shadows Into Light';
+    font-size: 50px;
+}
+
+i {
+    font-size: 75px ;
+}
